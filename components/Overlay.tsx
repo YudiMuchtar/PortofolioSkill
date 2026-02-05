@@ -25,43 +25,57 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
             {/* Section 1 - HERO */}
             <motion.div
                 style={{ opacity: opacity1, y: y1 }}
-                className="text-center max-w-4xl"
+                className="text-center max-w-5xl"
             >
-                <h1 className="text-4xl md:text-7xl font-bold tracking-tighter text-white mb-6">
-                    Architecting Intelligent <br /> <span className="text-emerald-400">Ecosystems</span>
-                </h1>
-                <p className="text-lg md:text-2xl text-gray-300 font-light tracking-wide uppercase">
-                    High-End Engineering <br /> for a Smarter Future
-                </p>
+                <div className="p-8 md:p-12 rounded-3xl bg-black/40 backdrop-blur-md border border-white/10 shadow-2xl">
+                    <h1 className="text-4xl md:text-8xl font-black tracking-tighter text-white mb-6 drop-shadow-lg">
+                        Architecting Intelligent <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">Ecosystems</span>
+                    </h1>
+                    <p className="text-lg md:text-3xl text-gray-200 font-medium tracking-wide uppercase drop-shadow-md">
+                        High-End Engineering <br /> for a Smarter Future
+                    </p>
+                </div>
             </motion.div>
 
             {/* Section 2 - INTRO */}
             <motion.div
                 style={{ opacity: opacity2, y: y2 }}
-                className="absolute left-0 md:left-[10%] max-w-2xl text-left pl-6 md:pl-0 border-l-2 border-emerald-500/50"
+                className="absolute left-4 md:left-[10%] max-w-2xl text-left"
             >
-                <p className="text-sm text-emerald-400 font-mono mb-4">PROFILE_ID: YUDI_MUCHTAR</p>
-                <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-                    Engineer Multi-Disiplin
-                </h2>
-                <p className="text-base md:text-xl text-gray-300 leading-relaxed">
-                    Menggabungkan presisi <span className="text-white font-semibold">Teknologi Elektro</span>, kecerdasan <span className="text-white font-semibold">AI & IoT</span>, serta inovasi <span className="text-white font-semibold">Pertanian Modern</span>.
-                </p>
+                <div className="p-6 md:p-10 rounded-2xl bg-black/60 backdrop-blur-xl border-l-4 border-emerald-500 shadow-2xl">
+                    <div className="inline-block px-3 py-1 mb-4 rounded bg-emerald-500/20 border border-emerald-500/30">
+                        <p className="text-xs md:text-sm text-emerald-400 font-mono tracking-widest">
+                            PROFILE_ID: YUDI_MUCHTAR
+                        </p>
+                    </div>
+
+                    <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6 drop-shadow-md">
+                        Engineer Multi-Disiplin
+                    </h2>
+                    <p className="text-base md:text-xl text-gray-200 leading-relaxed font-light">
+                        Menggabungkan presisi <span className="text-emerald-400 font-bold">Teknologi Elektro</span>, kecerdasan <span className="text-cyan-400 font-bold">AI & IoT</span>, serta inovasi <span className="text-green-400 font-bold">Smart Farming</span>.
+                    </p>
+                </div>
             </motion.div>
 
             {/* Section 3 - HOOK */}
             <motion.div
                 style={{ opacity: opacity3, y: y3 }}
-                className="absolute right-0 md:right-[10%] text-right max-w-xl pr-6 md:pr-0"
+                className="absolute right-4 md:right-[10%] text-right max-w-xl"
             >
-                <h2 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">
-                    Transformasi Teknologi
-                </h2>
-                <p className="text-xl md:text-2xl text-gray-400">
-                    di Tangan yang Tepat.
-                </p>
-                <div className="mt-8 inline-block px-4 py-2 border border-emerald-500/30 rounded-full bg-emerald-900/10 backdrop-blur-md">
-                    <span className="text-emerald-400 font-mono text-sm">S.T. & S.Kom. Double Degree</span>
+                <div className="p-6 md:p-10 rounded-2xl bg-gradient-to-l from-black/80 to-black/40 backdrop-blur-lg border-r-4 border-emerald-500 shadow-2xl">
+                    <h2 className="text-3xl md:text-6xl font-bold text-white leading-tight mb-4 drop-shadow-lg">
+                        Transformasi Teknologi
+                    </h2>
+                    <p className="text-xl md:text-3xl text-gray-300 mb-8 font-light">
+                        di Tangan yang Tepat.
+                    </p>
+                    <div className="inline-flex items-center gap-3 px-6 py-3 border border-emerald-500/50 rounded-full bg-emerald-950/50 backdrop-blur-md shadow-[0_0_15px_rgba(16,185,129,0.3)]">
+                        <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                        <span className="text-emerald-300 font-mono text-sm md:text-base font-bold tracking-wider">
+                            S.T. & S.Kom. Double Degree
+                        </span>
+                    </div>
                 </div>
             </motion.div>
 
