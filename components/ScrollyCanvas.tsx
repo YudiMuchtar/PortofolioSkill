@@ -100,7 +100,19 @@ export default function ScrollyCanvas() {
     return (
         <div ref={containerRef} className="relative h-[500vh] bg-[#121212]">
             <div className="sticky top-0 h-screen w-full overflow-hidden">
-                <canvas ref={canvasRef} className="block w-full h-full object-cover" />
+                {/* Static Fallback Image - Visible immediately */}
+                <img
+                    src="/sequence/frame_000.png"
+                    alt="Hero Background"
+                    className="absolute inset-0 w-full h-full object-cover z-0"
+                />
+
+                {/* Canvas - Fades in or simply overlays once ready */}
+                <canvas
+                    ref={canvasRef}
+                    className={`block w-full h-full object-cover absolute inset-0 z-10 transition-opacity duration-700 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
+                />
+
                 <Overlay scrollYProgress={scrollYProgress} />
             </div>
         </div>
