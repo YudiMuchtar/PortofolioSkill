@@ -25,13 +25,14 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
             {/* Section 1 - HERO */}
             <motion.div
                 style={{ opacity: opacity1, y: y1 }}
-                className="text-center max-w-5xl"
+                className="text-center max-w-6xl"
             >
-                <div className="p-8 md:p-12 rounded-3xl bg-black/40 backdrop-blur-md border border-white/10 shadow-2xl">
-                    <h1 className="text-4xl md:text-8xl font-black tracking-tighter text-white mb-6 drop-shadow-lg">
-                        Architecting Intelligent <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">Ecosystems</span>
+                {/* Crystal Clear Card: Minimal opacity, slight blur, strong borders */}
+                <div className="p-8 md:p-14 rounded-[3rem] bg-white/5 backdrop-blur-sm border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.36)]">
+                    <h1 className="text-4xl md:text-8xl font-black tracking-tighter text-white mb-6 drop-shadow-2xl">
+                        Architecting Intelligent <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 to-cyan-400 drop-shadow-lg">Ecosystems</span>
                     </h1>
-                    <p className="text-lg md:text-3xl text-gray-200 font-medium tracking-wide uppercase drop-shadow-md">
+                    <p className="text-lg md:text-3xl text-gray-100 font-medium tracking-wide uppercase drop-shadow-xl">
                         High-End Engineering <br /> for a Smarter Future
                     </p>
                 </div>
@@ -42,18 +43,18 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
                 style={{ opacity: opacity2, y: y2 }}
                 className="absolute left-4 md:left-[10%] max-w-2xl text-left"
             >
-                <div className="p-6 md:p-10 rounded-2xl bg-black/60 backdrop-blur-xl border-l-4 border-emerald-500 shadow-2xl">
-                    <div className="inline-block px-3 py-1 mb-4 rounded bg-emerald-500/20 border border-emerald-500/30">
-                        <p className="text-xs md:text-sm text-emerald-400 font-mono tracking-widest">
+                <div className="p-6 md:p-10 rounded-3xl bg-black/20 backdrop-blur-sm border-l-4 border-emerald-500/80 shadow-2xl">
+                    <div className="inline-block px-3 py-1 mb-4 rounded-full bg-emerald-500/10 border border-emerald-500/20 backdrop-blur-md">
+                        <p className="text-xs md:text-sm text-emerald-300 font-mono tracking-widest drop-shadow-md">
                             PROFILE_ID: YUDI_MUCHTAR
                         </p>
                     </div>
 
-                    <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6 drop-shadow-md">
+                    <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6 drop-shadow-2xl">
                         Engineer Multi-Disiplin
                     </h2>
-                    <p className="text-base md:text-xl text-gray-200 leading-relaxed font-light">
-                        Menggabungkan presisi <span className="text-emerald-400 font-bold">Teknologi Elektro</span>, kecerdasan <span className="text-cyan-400 font-bold">AI & IoT</span>, serta inovasi <span className="text-green-400 font-bold">Smart Farming</span>.
+                    <p className="text-base md:text-xl text-white leading-relaxed font-light drop-shadow-lg">
+                        Menggabungkan presisi <span className="text-emerald-300 font-semibold">Teknologi Elektro</span>, kecerdasan <span className="text-cyan-300 font-semibold">AI & IoT</span>, serta inovasi <span className="text-green-300 font-semibold">Smart Farming</span>.
                     </p>
                 </div>
             </motion.div>
@@ -63,16 +64,16 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
                 style={{ opacity: opacity3, y: y3 }}
                 className="absolute right-4 md:right-[10%] text-right max-w-xl"
             >
-                <div className="p-6 md:p-10 rounded-2xl bg-gradient-to-l from-black/80 to-black/40 backdrop-blur-lg border-r-4 border-emerald-500 shadow-2xl">
-                    <h2 className="text-3xl md:text-6xl font-bold text-white leading-tight mb-4 drop-shadow-lg">
+                <div className="p-6 md:p-10 rounded-3xl bg-gradient-to-l from-white/5 to-transparent backdrop-blur-sm border-r-4 border-emerald-500/80 shadow-2xl">
+                    <h2 className="text-3xl md:text-6xl font-bold text-white leading-tight mb-4 drop-shadow-2xl">
                         Transformasi Teknologi
                     </h2>
-                    <p className="text-xl md:text-3xl text-gray-300 mb-8 font-light">
+                    <p className="text-xl md:text-3xl text-gray-100 mb-8 font-light drop-shadow-xl">
                         di Tangan yang Tepat.
                     </p>
-                    <div className="inline-flex items-center gap-3 px-6 py-3 border border-emerald-500/50 rounded-full bg-emerald-950/50 backdrop-blur-md shadow-[0_0_15px_rgba(16,185,129,0.3)]">
-                        <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                        <span className="text-emerald-300 font-mono text-sm md:text-base font-bold tracking-wider">
+                    <div className="inline-flex items-center gap-3 px-6 py-3 border border-emerald-500/30 rounded-full bg-emerald-950/30 backdrop-blur-md shadow-[0_0_20px_rgba(16,185,129,0.2)]">
+                        <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_10px_#34d399]" />
+                        <span className="text-emerald-200 font-mono text-sm md:text-base font-bold tracking-wider drop-shadow-lg">
                             S.T. & S.Kom. Double Degree
                         </span>
                     </div>
