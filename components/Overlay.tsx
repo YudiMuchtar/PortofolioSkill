@@ -32,8 +32,12 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
                     <h1 className="text-4xl md:text-8xl font-black tracking-tighter text-white mb-6 drop-shadow-2xl">
                         Architecting Intelligent <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 to-cyan-400 drop-shadow-lg">Ecosystems</span>
                     </h1>
-                    <p className="text-lg md:text-3xl text-gray-100 font-medium tracking-wide uppercase drop-shadow-xl">
-                        High-End Engineering <br /> for a Smarter Future
+                    <p className="text-lg md:text-2xl text-gray-100 font-medium tracking-wide uppercase drop-shadow-xl max-w-4xl mx-auto leading-relaxed">
+                        High-End Engineering For AI & IoT <br />
+                        <span className="text-sm md:text-xl text-emerald-200 block mt-2">
+                            Smart Home • Smart City • Smart Farming <br />
+                            Build Website / Mobile / Software FullStack Developer
+                        </span>
                     </p>
                 </div>
             </motion.div>
