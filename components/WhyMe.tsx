@@ -3,16 +3,16 @@ import { CheckCircle2 } from "lucide-react";
 export default function WhyMe() {
     const values = [
         {
-            title: "Double Degree Expertise",
-            desc: "Kombinasi langka antara sarjana Teknik Elektro (S.T.) dan Komputer (S.Kom.), memberikan perspektif holistik."
+            title: "Expertise Ganda (S.T. & S.Kom)",
+            desc: "Paham Hardware & Software sekaligus. Tidak perlu sewa dua ahli berbeda, saya tangani semuanya dari kabel hingga koding."
         },
         {
-            title: "End-to-End Solutions",
-            desc: "Satu atap untuk perakitan hardware, coding software, hingga deployment model AI kompleks."
+            title: "Solusi All-in-One",
+            desc: "Mulai dari perakitan alat, pembuatan aplikasi, hingga sistem berjalan otomatis. Satu pintu, beres semua."
         },
         {
-            title: "Local Impact, Global Standard",
-            desc: "Berbasis di Padangsidimpuan namun menerapkan standar kerja dan kualitas internasional."
+            title: "Standar Internasional",
+            desc: "Kualitas kerja setara perusahaan teknologi global, diterapkan langsung untuk memajukan bisnis lokal Anda."
         }
     ];
 
@@ -26,13 +26,13 @@ export default function WhyMe() {
 
                     <div>
                         <h2 className="text-sm font-mono text-emerald-400 mb-2 tracking-widest uppercase">The Value Proposition</h2>
-                        <h3 className="text-4xl md:text-6xl font-bold text-white mb-8">Why Me?</h3>
+                        <h3 className="text-3xl md:text-5xl font-bold text-white mb-8">Solusi Tepat Guna <br /> dengan AI & IoT</h3>
                         <p className="text-xl text-gray-300 leading-relaxed mb-8">
-                            Saya tidak hanya menulis kode; saya merancang sistem. Saya tidak hanya memperbaiki hardware; saya memahami jiwanya. Pendekatan multi-disiplin ini adalah kunci untuk inovasi yang berkelanjutan.
+                            Mengapa harus rumit jika bisa canggih dan sederhana? Saya menghadirkan teknologi yang langsung menjawab masalah bisnis Anda dengan efisiensi tinggi.
                         </p>
                         <div className="p-6 bg-emerald-900/20 rounded-xl border border-emerald-500/20">
                             <p className="text-emerald-100 italic">
-                                "Saya adalah jembatan antara ide abstrak dan eksekusi teknis yang solid."
+                                "Teknologi bukan hanya soal kode, tapi soal bagaimana bisnis Anda berjalan lebih cepat, hemat, dan otomatis."
                             </p>
                         </div>
                     </div>

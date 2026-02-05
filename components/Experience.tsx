@@ -1,20 +1,20 @@
 export default function Experience() {
     const works = [
         {
-            title: "Sistem Otomasi Pertanian Berbasis AIoT",
-            desc: "Membangun sistem monitoring lahan real-time yang mampu mengatur irigasi dan pemupukan secara otomatis berdasarkan data sensor.",
+            title: "Smart Farming: Panen Meningkat, Biaya Turun",
+            desc: "Sistem irigasi dan pemupukan otomatis berbasis AI. Petani tenang, tanaman subur, hasil panen maksimal tanpa perlu dijaga 24 jam.",
             tech: ["Arduino/ESP32", "Python (AI)", "Flutter"],
             type: "Smart Farming"
         },
         {
-            title: "Enterprise Maintenance & Hardware Support",
-            desc: "Layanan pemeliharaan infrastruktur hardware untuk skala industri, memastikan zero-downtime pada sistem krusial.",
+            title: "Infrastruktur IT Anti-Macet (Zero Downtime)",
+            desc: "Jangan biarkan bisnis Anda rugi karena komputer rusak. Saya pastikan sistem server dan hardware Anda selalu 'sehat' dan siap tempur.",
             tech: ["Hardware Diagnostics", "System Recovery", "Industrial Std"],
             type: "Infrastructure"
         },
         {
-            title: "Multi-Platform Application Suites",
-            desc: "Pengembangan software manajemen internal yang berjalan sinkron di desktop (Windows/Linux), web, dan smartphone (Android/iOS).",
+            title: "Satu Aplikasi untuk Semua Gadget",
+            desc: "Pantau bisnis dari mana saja. Aplikasi manajemen yang sinkron otomatis antara Laptop (Windows/Linux) dan HP (Android/iOS).",
             tech: ["Cross-Platform", "Cloud Sync", "Secure API"],
             type: "Software Dev"
         }

@@ -35,11 +35,11 @@ export default function Contact() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-20">
                     {/* Call to Action Column */}
                     <div>
-                        <h2 className="text-5xl md:text-7xl font-bold text-white mb-8 tracking-tighter">
-                            Ingin Membangun <br /> <span className="text-emerald-500">Masa Depan?</span>
+                        <h2 className="text-4xl md:text-6xl font-bold text-white mb-8 tracking-tighter">
+                            Jangan Biarkan <br /> <span className="text-emerald-500">Bisnis Tertinggal.</span>
                         </h2>
                         <p className="text-xl text-gray-400 max-w-xl mb-12">
-                            Saya siap membantu Anda mendigitalisasi bisnis, mengoptimalkan sistem AIoT, atau berkolaborasi dalam karya seni futuristik.
+                            Teknologi bergerak cepat. Pesaing Anda mungkin sudah pakai AI. Mari diskusi bagaimana kita bisa buat bisnis Anda lebih canggih sekarang juga.
                         </p>
 
                         <div className="space-y-4">
